@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class Rest_Controller {
 
-    @RequestMapping("/xx")
+    @RequestMapping("/employees")
     public String index() {
         return "Greetings from Spring Boot!";
     }
